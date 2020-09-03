@@ -1,0 +1,14 @@
+.formControl {
+    width: 300px;
+    margin: 10px 30px !important;
+}
+.nativeSelect {
+    background-color: rgb(223, 230, 218);
+    border-radius: 5px !important;
+    border: thin solid rgb(124, 70, 70);
+
+    transition: 0.5s;
+}
+.nativeSelect:hover:before {
+    /* border: 1px !important; */
+}

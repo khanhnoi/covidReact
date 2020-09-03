@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(250,250,250);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.shen {
+    height: 150px;
+    display: block  ;
+}
+.logo {
+    height: 150px;
+    position: relative;
+}
+.covid {
+    height: 150px;
+    display: block  ;
+}
+.khanhNoi{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    z-index: 1000;
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(104, 104, 170);
+}
+.khanhNoi:hover {
+    text-shadow: 0 0 1px;
+    color: rgb(74, 74, 182);
+} 
