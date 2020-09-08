@@ -1,0 +1,11 @@
+.location {
+    /* width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(179, 26, 26);
+    opacity: 0.7; */
+}
+.location img {
+    width: 20px;
+    cursor: pointer;
+}
